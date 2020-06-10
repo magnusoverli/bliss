@@ -13,5 +13,5 @@ docker create --name=bliss \
 -e TZ=Europe/Oslo \
 -p 3220:3220 \
 -p 3221:3221 \
-magnusoverli/bliss:latest
+magnusoverli/blisshq:latest
 ```
