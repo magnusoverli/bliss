@@ -45,5 +45,6 @@ Once the docker container is up and running you can access the WebUI at `host-ip
 
 Out of the box you have 100 fixes included as a trial, but I recommend that you buy the amount of fixes you need here: [Buy fixes](https://www.blisshq.com/buy-fixes.html)
 
-#### Contact
+#### Contact / Discplaimer
 If you have questions you can try to reach out to me at magnus+docker@overli.dev, but I created this mostly for my own use. This also isn´t close to my profession so stuff might break down the line.
+I have also based my Dockerfile on the already working version from <a href="hhttps://hub.docker.com/u/romancin" target="_blank">romancin</a>.
