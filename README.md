@@ -23,7 +23,7 @@ magnusoverli/blisshq:latest
 | `-d`          | Run the container in the background (daemon) |
 | `--name=bliss`| The name of the container   |
 | `--restart=unless-stopped`| Setting the restart policy of the container [More info](https://docs.docker.com/config/containers/start-containers-automatically/#use-a-restart-policy "Restart Policies") |
-| `-v /config`  | Path to dir where Bliss stores config data, preferrably an empty directory.|
+| `-v /config`  | Path to dir where Bliss stores config data, preferably an empty directory.|
 | `-v /music`   | Path to your music collection on the host  |
 | `-e PUID=1000`| Setting UserID (see below)      |
 | `-e PGID=1000`| Setting GroupID (see below)     |
@@ -40,4 +40,5 @@ $ id username
 
 ### Start Application
 Once the docker container is up and running you can access the WebUI at `host-ip-address:3200`.
+
 Out of the box you have 100 fixes included as a trial, but I recommend that you buy the amount of fixes you need here: [Buy fixes](https://www.blisshq.com/buy-fixes.html)
