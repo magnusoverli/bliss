@@ -20,11 +20,11 @@ magnusoverli/blisshq:latest
 ```
 
 ## Parameters
-| Parameter     | Value        |
+| Parameter     | Function        |
 | ------------- |--------------|
 | `-d`          | Run the container in the background (daemon) |
 | `--name=bliss`| The name of the container   |
-| `--restart=unless-stopped`| Setting the restart policy of the container <a href="https://docs.docker.com/config/containers/start-containers-automatically/#use-a-restart-policy" target="_blank">More info</a> |
+| `--restart=unless-stopped`| Setting the restart policy of the container |
 | `-v /config`  | Path to dir where Bliss stores config data, preferably an empty directory.|
 | `-v /music`   | Path to your music collection on the host  |
 | `-e PUID=1000`| Setting UserID (see below)      |
@@ -33,7 +33,17 @@ magnusoverli/blisshq:latest
 | `-p 3220:3220`     | Passing port 3220 on the host to port 3220 in the container (WebUI) |
 | `-p 3221:3221`     | Passing port 3220 on the host to port 3220 in the container (Internal) |
 
-<!--[More info](https://docs.docker.com/config/containers/start-containers-automatically/#use-a-restart-policy "Restart Policies")-->
+
+###### Restart policy
+There are various options available for the restart policy option, based on your needs:
+|Option|Result|
+|------|------|
+| `no`    | The container is never automatically restarted|
+| `on-failure`| Restarts the container if it exits because of an error|
+| `always` | Always restart the container|
+| `unless-stopped`| Restarting the container unless it was manually stopped|
+<a href="https://docs.docker.com/config/containers/start-containers-automatically/#use-a-restart-policy" target="_blank">More info and details here</a>
+
 ###### PUID / PGID
 These ID's are used to determine which user/group the container runs as. This is useful to ensure proper read/write permissions for the volumes (`-v`) we use. To find your UID (UserID) and GID (GroupID), run the following command:
 ```shell
