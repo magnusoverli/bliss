@@ -1,4 +1,4 @@
-# magnusoverli/bliss
+# Bliss
 
 Bliss (http://www.blisshq.com) is an open source music library manager, that "makes your music library more browsable, searchable, playable and beautiful, whichever music players you use".
 
