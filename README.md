@@ -1,6 +1,6 @@
 # Bliss
 
-Bliss (http://www.blisshq.com) is an open source music library manager, that "makes your music library more browsable, searchable, playable and beautiful, whichever music players you use".
+Bliss (http://www.blisshq.com) is a music library manager, that "makes your music library more browsable, searchable, playable and beautiful, whichever music players you use".
 
 <img src="https://www.blisshq.com/images/bliss-large-album-art-macbook.png" alt="alt text" width="400">
 
