@@ -34,7 +34,7 @@ magnusoverli/blisshq:latest
 | `-p 3221:3221`     | Passing port 3220 on the host to port 3220 in the container (Internal) |
 
 
-###### Restart policy
+##### Restart policy
 There are various options available for the restart policy option, based on your needs:
 |Option|Result|
 |------|------|
@@ -46,7 +46,7 @@ There are various options available for the restart policy option, based on your
 <a href="https://docs.docker.com/config/containers/start-containers-automatically/#use-a-restart-policy" target="_blank">More info and details here</a>
 
 
-###### PUID / PGID
+##### PUID / PGID
 These ID's are used to determine which user/group the container runs as. This is useful to ensure proper read/write permissions for the volumes (`-v`) we use. To find your UID (UserID) and GID (GroupID), run the following command:
 ```shell
 $ id username
