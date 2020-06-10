@@ -42,7 +42,9 @@ There are various options available for the restart policy option, based on your
 | `on-failure`| Restarts the container if it exits because of an error|
 | `always` | Always restart the container|
 | `unless-stopped`| Restarting the container unless it was manually stopped|
+
 <a href="https://docs.docker.com/config/containers/start-containers-automatically/#use-a-restart-policy" target="_blank">More info and details here</a>
+
 
 ###### PUID / PGID
 These ID's are used to determine which user/group the container runs as. This is useful to ensure proper read/write permissions for the volumes (`-v`) we use. To find your UID (UserID) and GID (GroupID), run the following command:
