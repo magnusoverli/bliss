@@ -15,3 +15,5 @@ docker create --name=bliss \
 -p 3221:3221 \
 magnusoverli/blisshq:latest
 ```
+
+### Options
