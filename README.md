@@ -34,7 +34,7 @@ magnusoverli/blisshq:latest
 
 <!--[More info](https://docs.docker.com/config/containers/start-containers-automatically/#use-a-restart-policy "Restart Policies")-->
 ##### PUID / PGID
-These ID's are used to determine which user/group the container runs as. This is useful to have proper read/write permissions for the volumes (`-v`) we use. To find your UID (UserID) and GID (GroupID), run the following command as the user you want the container to run as:
+These ID's are used to determine which user/group the container runs as. This is useful to ensure proper read/write permissions for the volumes (`-v`) we use. To find your UID (UserID) and GID (GroupID), run the following command:
 ```shell
 $ id username
   uid=1000(username) gid=1000(groupname) groups=1000(groupname)...
