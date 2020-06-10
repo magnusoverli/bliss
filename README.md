@@ -37,12 +37,12 @@ magnusoverli/blisshq:latest
 
 ##### Restart policy
 There are various options available for the restart policy option, based on your needs:
-|Option|Result|
-|------|------|
-| `no`    | The container is never automatically restarted|
-| `on-failure`| Restarts the container if it exits because of an error|
-| `always` | Always restart the container|
-| `unless-stopped`| Restarting the container unless it was manually stopped|
+| Option    | Result        |
+| ------------- |--------------|
+| `no`          | The container is never automatically restarted |
+| `on-failure`| Restarts the container if it exits because of an error   |
+| `always`| Always restart the container |
+| `unless-stopped`  | Restarting the container unless it was manually stopped |
 
 <a href="https://docs.docker.com/config/containers/start-containers-automatically/#use-a-restart-policy" target="_blank">More info and details here</a>
 
