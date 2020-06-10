@@ -31,7 +31,7 @@ magnusoverli/blisshq:latest
 | `-e PGID=1000`| Setting GroupID (see below)     |
 | `-e TZ=Europe/Oslo`| Setting TimeZone to use for the container |
 | `-p 3220:3220`     | Passing port 3220 on the host to port 3220 in the container (WebUI) |
-| `-p 3221:3221`     | Passing port 3220 on the host to port 3220 in the container (Internal) |
+| `-p 3221:3221`     | Passing port 3221 on the host to port 3221 in the container (Internal) |
 
 
 
