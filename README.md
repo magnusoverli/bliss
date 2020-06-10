@@ -24,7 +24,7 @@ magnusoverli/blisshq:latest
 | ------------- |--------------|
 | `-d`          | Run the container in the background (daemon) |
 | `--name=bliss`| The name of the container   |
-| `--restart=unless-stopped`| Setting the restart policy of the container |
+| `--restart=unless-stopped`| Setting the restart policy of the container (see below) |
 | `-v /config`  | Path to dir where Bliss stores config data, preferably an empty directory.|
 | `-v /music`   | Path to your music collection on the host  |
 | `-e PUID=1000`| Setting UserID (see below)      |
@@ -32,6 +32,7 @@ magnusoverli/blisshq:latest
 | `-e TZ=Europe/Oslo`| Setting TimeZone to use for the container |
 | `-p 3220:3220`     | Passing port 3220 on the host to port 3220 in the container (WebUI) |
 | `-p 3221:3221`     | Passing port 3220 on the host to port 3220 in the container (Internal) |
+
 
 
 ##### Restart policy
@@ -46,12 +47,14 @@ There are various options available for the restart policy option, based on your
 <a href="https://docs.docker.com/config/containers/start-containers-automatically/#use-a-restart-policy" target="_blank">More info and details here</a>
 
 
+
 ##### PUID / PGID
 These ID's are used to determine which user/group the container runs as. This is useful to ensure proper read/write permissions for the volumes (`-v`) we use. To find your UID (UserID) and GID (GroupID), run the following command:
 ```shell
 $ id username
   uid=1000(username) gid=1000(groupname) groups=1000(groupname)...
 ```
+
 
 ## Start Application
 Once the docker container is up and running you can access the WebUI at `host-ip-address:3200`.
