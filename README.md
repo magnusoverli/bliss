@@ -36,7 +36,6 @@ magnusoverli/blisshq:latest
 
 
 ##### Restart policy
-There are various options available for the restart policy option, based on your needs:
 | Option    | Result        |
 | ------------- |--------------|
 | `no`          | The container is never automatically restarted |
