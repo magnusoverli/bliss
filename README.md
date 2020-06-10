@@ -21,7 +21,7 @@ magnusoverli/blisshq:latest
 
 ## Parameters
 | Parameter     | Value        |
-| ------------- |:-------------|
+| ------------- |--------------|
 | `-d`          | Run the container in the background (daemon) |
 | `--name=bliss`| The name of the container   |
 | `--restart=unless-stopped`| Setting the restart policy of the container <a href="https://docs.docker.com/config/containers/start-containers-automatically/#use-a-restart-policy" target="_blank">More info</a> |
