@@ -8,6 +8,8 @@ EXPOSE 3220 3221
 
 RUN mkdir /bliss
 
+RUN wget -q https://www.blisshq.com/downloads/blog/installing-bliss-qnap-docker-container/bliss-runner.sh
+
 ADD bliss-runner.sh /bliss/
 
 RUN chmod +x /bliss/bliss-runner.sh
