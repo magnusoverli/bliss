@@ -4,7 +4,8 @@ Bliss (http://www.blisshq.com) is a music library manager, that "makes your musi
 
 <img src="https://www.blisshq.com/images/bliss-large-album-art-macbook.png" alt="alt text" width="400">
 
-### Usage
+
+## Usage
 ```
 docker run -d --name=bliss \ 
 --restart=unless-stopped \
@@ -18,7 +19,7 @@ docker run -d --name=bliss \
 magnusoverli/blisshq:latest
 ```
 
-### Parameters
+## Parameters
 | Parameter     | Value        |
 | ------------- |:-------------|
 | `-d`          | Run the container in the background (daemon) |
@@ -33,14 +34,14 @@ magnusoverli/blisshq:latest
 | `-p 3221:3221`     | Passing port 3220 on the host to port 3220 in the container (Internal) |
 
 <!--[More info](https://docs.docker.com/config/containers/start-containers-automatically/#use-a-restart-policy "Restart Policies")-->
-##### PUID / PGID
+###### PUID / PGID
 These ID's are used to determine which user/group the container runs as. This is useful to ensure proper read/write permissions for the volumes (`-v`) we use. To find your UID (UserID) and GID (GroupID), run the following command:
 ```shell
 $ id username
   uid=1000(username) gid=1000(groupname) groups=1000(groupname)...
 ```
 
-### Start Application
+## Start Application
 Once the docker container is up and running you can access the WebUI at `host-ip-address:3200`.
 
 Out of the box you have 100 fixes included as a trial, but I recommend that you buy the amount of fixes you need here: [Buy fixes](https://www.blisshq.com/buy-fixes.html)
