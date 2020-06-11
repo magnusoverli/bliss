@@ -7,7 +7,8 @@ Bliss (http://www.blisshq.com) is a music library manager, that "makes your musi
 
 ## Usage
 ```
-docker run -d --name=bliss \ 
+docker run -d \
+--name=bliss \ 
 --restart=unless-stopped \
 -v /path/to/config/on/host:/config \
 -v /path/to/music/on/host:/music \
