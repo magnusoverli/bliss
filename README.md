@@ -4,7 +4,7 @@ Bliss (http://www.blisshq.com) is a music library manager, that "makes your musi
 
 <img src="https://www.blisshq.com/images/bliss-large-album-art-macbook.png" alt="alt text" width="400">
 
-\
+<br />
 ## Usage
 ```
 docker run -d --name=bliss \ 
@@ -18,7 +18,7 @@ docker run -d --name=bliss \
 -p 3221:3221 \
 magnusoverli/bliss:latest
 ```
-\
+<br />
 ## Parameters
 | Parameter     | Function        |
 | ------------- |--------------|
