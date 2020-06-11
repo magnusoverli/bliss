@@ -1,5 +1,8 @@
 FROM alpine:latest
 
+LABEL MAINTAINER "Magnus Overli <magnus+docker@overli.dev>"
+LABEL APP "bliss"
+
 ENV VMARGS -Dbliss_working_directory=/config
 
 VOLUME /config /music
