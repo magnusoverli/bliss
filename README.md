@@ -54,8 +54,7 @@ These ID's are used to determine which user/group the container runs as. This is
 $ id username
   uid=1000(username) gid=1000(groupname) groups=1000(groupname)...
 ```
-\
-\
+
 
 ## Setup the application
 Once the docker container is up and running you can access the WebUI at **`host-ip-address:3220`**.
