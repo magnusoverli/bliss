@@ -27,7 +27,7 @@ magnusoverli/bliss:latest
 | `-d`          | Run the container in the background (daemon) |
 | `--name=bliss`| The name of the container   |
 | `--restart=unless-stopped`| Setting the restart policy of the container (see below) |
-| `-v /config`  | Path to dir where Bliss stores config data, preferably an empty directory.|
+| `-v /config`  | Path to dir where Bliss stores config data.|
 | `-v /music`   | Path to your music collection on the host  |
 | `-v /root/.java`   | Where to provide persitant storage for license and settings on host  |
 | `-e PUID=1000`| Setting UserID (see below)      |
